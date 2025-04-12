@@ -4,10 +4,6 @@
 
 I build intelligent systems, gamified experiences, and tools that help people better organize, play smarter, and improve their lives.
 
-
-Here are some ideas to get you started:
----
-
 ## 🚀 What I'm Building
 
 ### **RememberIt** – *Intelligent Personal Organization App*
