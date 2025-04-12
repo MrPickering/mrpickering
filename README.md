@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-**AI Systems Designer | Product Architect | Game Dev Enthusiast | Systems Thinker**
+**AI Systems Designer | Product Architect | Game Dev & Designer | Systems Thinker**
 
 I build intelligent systems, gamified experiences, and tools that help people better organize, play smarter, and improve their lives.
 
