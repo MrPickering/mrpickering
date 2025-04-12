@@ -29,7 +29,7 @@ An intelligent agent system that orchestrates real-time infrastructure and opera
 
 ---
 
-### **CoachMark.AI** – *Transform Your Life Into an RPG*
+### **Coach.AI** – *Transform Your Life Into an RPG*
 Gamified personal development powered by adaptive AI coaching.
 - **Personalized Quests:** Based on energy, focus, mood, and goals
 - **XP & Stats:** Track character stats and level up your life
