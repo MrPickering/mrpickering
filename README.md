@@ -1,6 +1,5 @@
 ## Hi there 👋
 
-<!--
 **AI Systems Designer | Product Architect | Game Dev Enthusiast | Systems Thinker**
 
 I build intelligent systems, gamified experiences, and tools that help people better organize, play smarter, and improve their lives.
@@ -54,6 +53,9 @@ Gamified personal development powered by adaptive AI coaching.
 - Tested by industry pros and used as a proof-of-concept for safety simulation
 - Realistic handling modeled on heavy vehicle dynamics in urban environments
 
+> *"Train like a pro. Drive like a champion. Simulate for safety."*
+
+
 ---
 
 ### **PickBits.AI** – *Turn Ideas Into 🔥*
@@ -90,9 +92,3 @@ Home Page for PickBits.AI. Creative productivity service, solutions, and consult
 - **Brand Design** – Iconography, storytelling, particle-based visual identity
 
 ### "Design systems that think. Build tools that matter. Make it fun."
-
----
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mrpickering&show_icons=true&theme=radical)
-
--->
