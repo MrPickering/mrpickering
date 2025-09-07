@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-**AI Systems Designer | Product Architect | Dev & Designer | Gamification & Systems Thinker**
+**AI Systems Designer | Product Architect | Engineer | Gamification & Systems Thinker**
 
 I build intelligent systems, gamified experiences, and tools that help people better organize, play smarter, and improve their lives.
 
@@ -35,4 +35,4 @@ Home Page for PickBits.AI. Creative productivity service, solutions, and consult
 - **Social Media Automation** 
 - **Brand Design**
 
-### "Design systems that think. Build tools that matter. Make it fun."
+"Design systems that think. Build tools that matter. Make it fun."
