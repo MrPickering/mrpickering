@@ -1,10 +1,10 @@
 ## Hi there 👋
 
-**AI Systems Designer | Product Architect | Game Dev & Designer | Systems Thinker**
+**AI Systems Designer | Product Architect | Dev & Designer | Gamification & Systems Thinker**
 
 I build intelligent systems, gamified experiences, and tools that help people better organize, play smarter, and improve their lives.
 
-## What I'm Building
+## Projects
 
 ### **RememberIt** – *Intelligent Personal Organization App*
 ### **resolvr.ai** – *AI-Powered Operations Framework*
@@ -16,7 +16,7 @@ I build intelligent systems, gamified experiences, and tools that help people be
 Home Page for PickBits.AI. Creative productivity service, solutions, and consulting.
 
 
-## 🧰 Tools & Tech I Use
+## Tools & Tech 
 
 ### **AI & Automation**
 - **Codex**,**Claude Code**, **Replit**
@@ -27,11 +27,12 @@ Home Page for PickBits.AI. Creative productivity service, solutions, and consult
 - **AWS, Vercel, Railway**
 
 ### **Game Development**
-- **Unreal Engine 5** – Sim mechanics, Blueprints, performance tuning
+- **Unreal Engine 5**
+- **
 
 ### **Marketing & Growth**
-- **AI-Powered Marketing** – Automated copy, A/B testing, brand language
-- **Social Media Automation** – Prompt-driven post generation and scheduling
-- **Brand Design** – Iconography, storytelling, particle-based visual identity
+- **AI-Powered Marketing** 
+- **Social Media Automation** 
+- **Brand Design**
 
 ### "Design systems that think. Build tools that matter. Make it fun."
