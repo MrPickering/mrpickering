@@ -19,12 +19,12 @@ Home Page for PickBits.AI. Creative productivity service, solutions, and consult
 ## 🧰 Tools & Tech I Use
 
 ### **AI & Automation**
-**Codex**,**Claude Code**, **Replit** – Contextual coding assistant & dev environment
-**Claude, GPT, Gemini, Grok, Custom LLMs** – Prompt design and specialized AI agents
-**Frontend & App Dev**
-**Backend & Infrastructure**
-**Microsoft, ServiceNow, Rally, Jira**
-**AWS, Vercel, Railway**
+- **Codex**,**Claude Code**, **Replit**
+- **Claude, GPT, Gemini, Grok, Custom LLMs**
+- **Frontend & App Dev**
+- **Backend & Infrastructure**
+- **Microsoft, ServiceNow, Rally, Jira**
+- **AWS, Vercel, Railway**
 
 ### **Game Development**
 - **Unreal Engine 5** – Sim mechanics, Blueprints, performance tuning
