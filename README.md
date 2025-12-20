@@ -4,11 +4,12 @@ I build intelligent systems, gamified experiences, and tools for personal digita
 
 ## Projects
 
-### **Remme** – *Intelligent Personal Organization App*
-### **resolvr** – *AI-Powered Operations Framework*
-### **CoachMark** – *Transform Your Life Into an RPG*
-### **PickBits.AI** – *Turn Ideas Into 🔥*
-Home Page for PickBits.AI. Creative productivity service, solutions, and consulting.
+### **remme** – Intelligent Personal Organization App
+### **resolvr** – AI-Powered Operations Framework
+### **coach-mark.ai** – Transform Your Life Into an RPG
+### **pickbits.ai** – Turn Ideas Into 🔥
+### **chorearcade.com** - track household chores; unique themes for kids and adults.
+### **pantryplan.me** - Plan meals, shop, and manage pantry inventory with the household.
 
 
 ### **Game Development**
