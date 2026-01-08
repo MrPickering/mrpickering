@@ -15,6 +15,13 @@ I build intelligent systems, gamified experiences, and tools for personal digita
 ### **Game Development**
 - **Unreal Engine 5: Open World Utility Company Simulation**
 - **Unreal Engine 5: Truck Driving Competition**
+- **Zombie Survival: A round-based survival roguelike**
+- **MMMmmunchers: A remake of the classic Apple II game**
+- **Idle-Tycoons: Resource manager idle games**
+- **BubbleBobble Clone: platformer with AI-powered level generation**
+- **GTA2-clone: top-down city explorer with missions**
+- **FPS-Dungeon Crawler: Inspired by Diablo and Gauntlet Legends**
+
 
 
 "Design systems that think. Build tools that matter. Make it fun."
