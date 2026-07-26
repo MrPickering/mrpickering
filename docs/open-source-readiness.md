@@ -29,7 +29,7 @@ These are design targets, not claims of certification.
 | System | What is proven | Remaining depth |
 | --- | --- | --- |
 | [Weaver](https://github.com/pickbitsai/weaver) | Story-agnostic engine, loop contract, rejection paths, deterministic tests, clean consumer install, MIT/security/contribution docs, and green cross-platform CI | OpenTelemetry export and signed release receipts |
-| [Company OS](https://github.com/pickbitsai/company-os) | Public source, portable build, leak scan, 22 tests, and a clean consumer install across Node 18/20/22 on Linux, macOS, and Windows | Merge the consumer-release gate, publish the package, then add cross-project loop telemetry |
+| [Company OS](https://github.com/pickbitsai/company-os) | Public source, portable build, leak scan, 37 tests, and a clean consumer install across Node 18/20/22 on Linux, macOS, and Windows | Merge the consumer-release gate, publish the package, then add cross-project loop telemetry |
 | [Sprite Generator](https://github.com/pickbitsai/sprite-generator/pull/1) | Public extraction, explicit visual loop, known-good and known-bad identity evidence, clean consumer install, zero production advisories, 44-file package boundary, and green Node 20/22 CI on three operating systems | Merge the extraction and publish the package; provider-backed evals remain opt-in because they incur cost |
 
 ## Evidence from the private systems
