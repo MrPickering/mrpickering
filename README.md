@@ -1,50 +1,67 @@
-# Agentic systems that leave receipts
+# Agentic systems that prove their work
 
-I’m the engineer and systems architect behind [PickBits](https://pickbits.ai/). I build local-first tools and creative systems where specialized agents exchange explicit contracts, produce inspectable artifacts, and stop for human judgment at the right boundary.
+I’m Mark Pickering, the engineer and systems architect behind [PickBits](https://pickbits.ai/). I build agentic workflows that operate across real products—not chat demos: explicit state graphs, bounded authority, human interrupts, evidence gates, replayable traces, and artifacts the next person or machine can inspect.
 
-My work spans agent orchestration, developer tooling, evidence-backed content production, simulation games, and the infrastructure that connects them.
+**The operating principle:** an agent saying “done” is not evidence.
+
+| If you are here to… | Start here |
+| --- | --- |
+| inspect the architecture, run the tools, or collaborate on agent infrastructure | **Stay on GitHub.** The systems, loop graphs, evals, and release evidence live here. |
+| learn to build and operate with AI, follow the research, or work with me | **[PickBits.ai](https://pickbits.ai/)** — University, field notes, community, and consulting. |
+| play the games, join a playtest, or explore the creative worlds | **[PickBits.studio](https://pickbits.studio/)** — the arcade and studio portfolio. |
 
 <p align="center">
-  <img src="./assets/pickbits-universe.gif" width="100%" alt="PickBits operating map: specialized authoring and asset engines feed production, pass through a human approval gate, and reach public products and publish targets">
+  <img src="./assets/agentic-systems-map.svg" width="100%" alt="PickBits Loop Atlas showing six domain loops observed by Company OS and governed by shared proof boundaries">
 </p>
 
-<p align="center"><em>A simplified operating map. The public products below are live; several engine repositories remain private while their reusable parts are prepared for release.</em></p>
+## The public systems
 
-## The PickBits universe
+| System | Executable idea | Status |
+| --- | --- | --- |
+| [Company OS](https://github.com/pickbitsai/company-os) | Observe many projects, normalize what is really wired and scheduled, and publish a safe operational projection. | Public source; installable package in release preparation |
+| [Session Index](https://github.com/MrPickering/session-index) | Recover local Codex and Claude Code sessions without an account, telemetry, or cloud database. | Public |
+| [PickBits Dependency Audit](https://github.com/pickbitsai/pickbits-dependency-audit) | Turn dependency risk into persistent evidence and remediation requests without silently granting patch authority. | Public |
+| [enView](https://github.com/MrPickering/enView) | Inventory environment-file exposure and drift without printing secret values into audit output. | Public |
+| [SimCit](https://github.com/MrPickering/SimCit) | A browser city simulation built from the open Micropolis lineage. | Public · [play](https://sim-cit.vercel.app/) |
 
-PickBits is a set of focused systems, not one giant agent:
+Small tools are useful, but the larger goal is a portfolio of **executable loops**: each repository should let a stranger install the system, inspect its graph, replay a sanitized run, and watch its gates accept good work and reject a deliberately bad fixture.
 
-- **Authoring engines** decide what is worth making: editorial research, curriculum, long-form narrative, game concepts, and asset briefs.
-- **Production engines** turn approved contracts into articles, lessons, media, game assets, and releases.
-- **Evidence gates** check sources, schemas, runtime behavior, and artifacts before work advances.
-- **A human approval gate** retains authority over publishing, patching, and other consequential actions.
+## The extraction map
 
-You can see the public side at [PickBits.AI](https://pickbits.ai/)—including [University](https://pickbits.ai/university/), [CyberHawk](https://pickbits.ai/cyberhawk/), and the [Arcade architecture](https://pickbits.ai/arcade)—and the creative work at [pickbits.studio](https://pickbits.studio/).
+These systems run inside PickBits today. Their reusable engines are being separated from private data, accounts, brand assets, and operating history before release.
 
-## Open source now
+| System | Loop being extracted | Public boundary |
+| --- | --- | --- |
+| **Weaver** | revise → invalidate derived narrative state → rebuild → immutable release | Story-agnostic engine, starter book, provenance, and stale-state tests |
+| **Sprite Generator** | manifest → generate → pack/animate → visual verification → receipt | Generator, provider adapters, templates, and verification gates; the Asset Factory remains proprietary |
+| **Infinite Arcade** | evidence → editorial/GTM decision → human authorization → experiment → feedback | One honest, currently running decision loop—not unfinished platform claims |
+| **Newsroom** | collect → retrieve → score → critique → repair or escalate → approved slate | Synthetic corpus, deterministic eval, portable stores, and model adapters |
+| **University** | source freshness → retrieval → lesson/outcome/skill graph → approval → evaluation | Curriculum engine and fictional course fixture; private curriculum stays private |
+| **Warehouse** | contract → production → independent verification → approval → distribution → feedback | Clean-room runtime, schemas, adapters, and synthetic release pipeline |
 
-| Project | What it proves |
-| --- | --- |
-| [Session Index](https://github.com/MrPickering/session-index) | A private, localhost-only dashboard for finding, resuming, and following up on Codex and Claude Code sessions. No account, telemetry, or cloud database. |
-| [PickBits Dependency Audit](https://github.com/pickbitsai/pickbits-dependency-audit) | Local dependency evidence, persistent finding history, zero-trust package admission, and remediation requests that cannot silently grant patch authority. |
-| [enView](https://github.com/MrPickering/enView) | Cross-project `.env` inventory, exposure checks, and drift detection without printing secret values in audit output. |
-| [SimCit](https://github.com/MrPickering/SimCit) | A browser city simulation built from the open Micropolis lineage, with a [live build](https://sim-cit.vercel.app/). |
+## What counts as proof
 
-These are small on purpose: runnable projects with a narrow job and explicit boundaries.
+Every flagship release is being held to the same bar:
 
-## What I’m extracting next
+- a machine-readable loop manifest and generated graph;
+- an install-and-run path that works outside the PickBits machine;
+- explicit inputs, outputs, authority, retries, stop conditions, and human interrupts;
+- sanitized example artifacts plus a replayable trace;
+- CI, deterministic evals, and a known-bad fixture proving each important gate can fail;
+- measured cost, latency, retries, interventions, and failure categories.
 
-These are release candidates and working concepts from the private PickBits stack—not claims of public availability yet:
+Runtime traces should interoperate with existing telemetry conventions. Action provenance should bridge to existing receipt formats where useful. The PickBits contribution is not another generic agent framework; it is a set of production-shaped systems where failures compound into reusable gates and front-door rules.
 
-1. **Weaver — narrative state as a build graph.** A long-form writing pipeline where reader knowledge is derived state with provenance. Edit an earlier scene and every affected downstream state record becomes stale; releases are immutable.
-2. **CodeSqueeze — context as a compiled artifact.** A repository compiler that extracts structure, signatures, framework signals, and task-specific context packs instead of dumping or blindly truncating files.
-3. **Proof-carrying work items.** A portable contract for agentic work: stable identity, subject type, contract version, lifecycle, idempotency key, requested outputs, evidence, receipts, and human approval.
-4. **Verifiable asset handoffs.** A manifest-driven protocol that takes an asset from request through generation and installation, then requires runtime and visual-QA receipts before calling it complete.
+## What is next
 
-The common idea is simple: an agent saying “done” is not evidence. The artifact, contract, evaluator, and receipt should be inspectable by the next person or machine.
+The current release sequence is:
 
-If one of these overlaps a problem you are solving, [open an issue](https://github.com/MrPickering/mrpickering/issues). I’d like the next releases to be useful outside PickBits from day one.
+**Company OS → Weaver → Sprite Generator → Infinite Arcade → Newsroom → University → Warehouse**
+
+Company OS will become the public **Loop Atlas**: a safe view across the projects, their graphs, and the evidence produced by recent runs. Warehouse is the eventual flagship, but it ships only after its reusable runtime is cleanly separated from the private production floor.
+
+If you are building serious agent workflows and want to test an extraction, contribute an adapter, or challenge an eval, [open an issue](https://github.com/MrPickering/mrpickering/issues).
 
 ---
 
-I work at the intersection of agent architecture, local-first software, evidence-first automation, and playful product design.
+**Contracts over vibes. Evidence over confidence. Human authority where consequences begin.**
