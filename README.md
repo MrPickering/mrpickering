@@ -18,7 +18,9 @@ I’m Mark Pickering, the engineer and systems architect behind [PickBits](https
 
 | System | Executable idea | Status |
 | --- | --- | --- |
-| [Company OS](https://github.com/pickbitsai/company-os) | Observe many projects, normalize what is really wired and scheduled, and publish a safe operational projection. | Public source; installable package in release preparation |
+| [Weaver](https://github.com/pickbitsai/weaver) | Revise source truth, invalidate derived narrative state, rebuild, and cut an immutable release through explicit gates. | Public source; clean consumer install proven; registry publication pending |
+| [Company OS](https://github.com/pickbitsai/company-os) | Observe many projects, normalize what is really wired and scheduled, and publish a safe operational projection. | Public source; [consumer-release gate in review](https://github.com/pickbitsai/company-os/pull/3); registry publication pending |
+| [Sprite Generator](https://github.com/pickbitsai/sprite-generator) | Turn a manifest into generated frames, a validated sheet, and inspectable proof through a human-authorized loop. | [Public extraction in review](https://github.com/pickbitsai/sprite-generator/pull/1); clean install and cross-platform CI proven; registry publication pending |
 | [Session Index](https://github.com/MrPickering/session-index) | Recover local Codex and Claude Code sessions without an account, telemetry, or cloud database. | Public |
 | [PickBits Dependency Audit](https://github.com/pickbitsai/pickbits-dependency-audit) | Turn dependency risk into persistent evidence and remediation requests without silently granting patch authority. | Public |
 | [enView](https://github.com/MrPickering/enView) | Inventory environment-file exposure and drift without printing secret values into audit output. | Public |
@@ -29,6 +31,8 @@ Small tools are useful, but the larger goal is a portfolio of **executable loops
 ## The extraction map
 
 These systems run inside PickBits today. Their reusable engines are being separated from private data, accounts, brand assets, and operating history before release.
+
+The [open-source readiness scorecard](./docs/open-source-readiness.md) records the repository evidence, the gap for each extraction, and the proof required to cross the line.
 
 | System | Loop being extracted | Public boundary |
 | --- | --- | --- |
@@ -54,9 +58,9 @@ Runtime traces should interoperate with existing telemetry conventions. Action p
 
 ## What is next
 
-The current release sequence is:
+Company OS and Weaver are public. Sprite Generator is in release review. The next extraction sequence is:
 
-**Company OS → Weaver → Sprite Generator → Infinite Arcade → Newsroom → University → Warehouse**
+**Infinite Arcade → Newsroom → University → Warehouse**
 
 Company OS will become the public **Loop Atlas**: a safe view across the projects, their graphs, and the evidence produced by recent runs. Warehouse is the eventual flagship, but it ships only after its reusable runtime is cleanly separated from the private production floor.
 
