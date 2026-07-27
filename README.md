@@ -23,7 +23,7 @@ I’m Mark Pickering, the engineer and systems architect behind [PickBits](https
 | [Sprite Generator](https://github.com/pickbitsai/sprite-generator) | Turn a manifest into generated frames, a validated sheet, and inspectable proof through a human-authorized loop. | [Public extraction in review](https://github.com/pickbitsai/sprite-generator/pull/1); clean install and cross-platform CI proven; registry publication pending |
 | [Session Index](https://github.com/pickbitsai/session-index) | Recover local Codex and Claude Code sessions without an account, telemetry, or cloud database. | Public |
 | [PickBits Dependency Audit](https://github.com/pickbitsai/pickbits-dependency-audit) | Turn dependency risk into persistent evidence and remediation requests without silently granting patch authority. | Public |
-| [enView](https://github.com/pickbitsai/enView) | Inventory environment-file exposure and drift without printing secret values into audit output. | Public; registry publication pending |
+| [enView](https://github.com/pickbitsai/enView) | Inventory environment-file exposure and drift without printing secret values into audit output. | Public · published: [`@pickbitsai/enview`](https://www.npmjs.com/package/@pickbitsai/enview) |
 | [SimCit](https://github.com/MrPickering/SimCit) | A browser city simulation built from the open Micropolis lineage. | Public · [play](https://sim-cit.vercel.app/) |
 
 Small tools are useful, but the larger goal is a portfolio of **executable loops**: each repository should let a stranger install the system, inspect its graph, replay a sanitized run, and watch its gates accept good work and reject a deliberately bad fixture.
