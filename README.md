@@ -7,7 +7,8 @@ I’m Mark Pickering, the engineer and systems architect behind [PickBits](https
 | If you are here to… | Start here |
 | --- | --- |
 | inspect the architecture, run the tools, or collaborate on agent infrastructure | **Stay on GitHub.** The systems, loop graphs, evals, and release evidence live here. |
-| learn to build and operate with AI, follow the research, or work with me | **[PickBits.ai](https://pickbits.ai/)** — University, field notes, community, and consulting. |
+| learn to build and operate with AI | **[PickBits Academy](https://pickbits.academy/)** — the tracks, field guides, and runnable skills. |
+| follow the research, join the community, or work with me | **[PickBits.ai](https://pickbits.ai/)** — the Daily Signal, CyberHawk, case studies, the Experimenters, and consulting. |
 | play the games, join a playtest, or explore the creative worlds | **[PickBits.studio](https://pickbits.studio/)** — the arcade and studio portfolio. |
 
 <p align="center">
